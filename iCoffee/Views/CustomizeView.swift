@@ -55,6 +55,7 @@ struct CustomizeView: View {
             .scaledToFit()
             .frame(width: 200, height: 200)
             .cornerRadius(10)
+            .padding()
         Form {
             Section("Basic Options") {
                 Picker("Size", selection: $size) {
@@ -80,6 +81,7 @@ struct CustomizeView: View {
                             .tag(option)
                     }
                 }
+                .pickerStyle(.menu)
                 
                 if drink.coffeeBased {
                     Picker("Syrup", selection: $syrup) {
@@ -88,6 +90,7 @@ struct CustomizeView: View {
                                 .tag(option)
                         }
                     }
+                    .pickerStyle(.menu)
                 }
             }
             

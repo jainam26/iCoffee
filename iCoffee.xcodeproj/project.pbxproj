@@ -60,7 +60,6 @@
 				EBD217312774372A003E5619 /* MenuSection.swift */,
 				EBD2172F277436AC003E5619 /* Drink.swift */,
 				EBFDA13427744F9E00F79A0B /* Serving.swift */,
-				EB7B16FB27865D5700E5A95B /* ViewModel */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -112,6 +111,7 @@
 				EB7B16FD27865E0D00E5A95B /* Helper Extensions */,
 				EB7B16FC27865DA700E5A95B /* Views */,
 				EB7B16FA27865CE400E5A95B /* Model */,
+				EB7B16FB27865D5700E5A95B /* ViewModel */,
 				EBD2171F277434EC003E5619 /* iCoffeeApp.swift */,
 				EBD21721277434EC003E5619 /* ContentView.swift */,
 				EBFDA13227744B9400F79A0B /* menu.json */,
